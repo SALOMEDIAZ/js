@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Chat</title>
+    <link rel="stylesheet" href="lab9.css">
+</head>
+<body>
+    <div id="chat">
+        <div id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="user1" placeholder="Mensaje usuario uno">
+            <button onclick="sendMessage('user1')">Enviar</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user2" placeholder="Mensaje usuario dos">
+            <button onclick="sendMessage('user2')">Enviar</button>
+        </div>
+    </div>
+    <script src="lab9.js"></script>
+</body>
+</html>
